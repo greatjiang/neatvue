@@ -43,7 +43,6 @@
 </template>
 
 <script>
-import "amfe-flexible";
 export default {
   name: "App",
   data() {

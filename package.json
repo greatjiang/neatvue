@@ -1,6 +1,6 @@
 {
   "name": "neatvue",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "private": false,
   "description": "html5 ui html5ui mobileui",
   "main": "lib/neatvue.umd.min.js",
@@ -20,7 +20,6 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "core-js": "^2.6.5",
-    "normalize.css": "^8.0.1",
     "postcss-pxtorem": "^4.0.1",
     "vue": "^2.6.10"
   },
@@ -39,13 +38,20 @@
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.{js,vue}": [
       "vue-cli-service lint",
       "git add"
     ]
-  }
+  },
+  "author": "greatjiang",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/greatjiang/neatvue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/greatjiang/neatvue/issues"
+  },
+  "homepage": "https://github.com/greatjiang/neatvue#readme"
 }
