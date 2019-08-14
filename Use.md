@@ -41,7 +41,7 @@ import Neatvue from "neatvue";
 ```
 
 ## ranklist
-> ranklist 榜单数据  item {avatar,username,score}
+> rankList 榜单数据  item {avatar,username,score}
 > fill-style 隔行换色 最多两个值 默认#eee
 > child-height  li 高度 单位vh number类型
 ```
@@ -54,7 +54,7 @@ import Neatvue from "neatvue";
 ```
 
 ## ranksection
-> ranklist 榜单数据  item {avatar,username,score}
+> rankList 榜单数据  item {avatar,username,score}
 > fill-style 隔行换色 最多两个值 默认#eee
 > child-height  li 高度 单位vh number类型
 > slot:  no、avatar、mes、val
