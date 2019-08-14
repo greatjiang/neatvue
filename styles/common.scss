@@ -1,0 +1,214 @@
+body, html {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #000;
+  -webkit-touch-callout: none;
+  user-select: none;
+}
+
+body {
+  font-size: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+
+button, input[type="button"] {
+  font-family: sans-serif;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+abbr,
+acronym {
+  border: 0;
+  font-variant: normal
+}
+
+del {
+  text-decoration: line-through
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+th,
+var {
+  font-style: normal;
+  font-weight: 400
+}
+
+ol,
+ul {
+  list-style: none
+}
+
+caption,
+th {
+  text-align: left
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: 500
+}
+
+q:before,
+q:after {
+  content: ''
+}
+
+ins {
+  text-decoration: none
+}
+
+dd, dl, dt, li, ul {
+  list-style: none;
+}
+
+iframe {
+  border: 0;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, nav, section, video {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  outline: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active {
+    outline: none;
+  }
+
+  &:link {
+    text-decoration: none;
+  }
+}
+
+input, select {
+  outline: none;
+  border: 0;
+}
+
+input[type="text"] {
+  background-position-y: -1px;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255,0,0,0);
+}
+
+.clearfix {
+  zoom: 1;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+html body .g-hidden {
+  display: none;
+}
+
+.share-logo {
+  display: block;
+  width: 0;
+  height: 0;
+}
+
+@media screen and (max-device-width: 320px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+@media screen and (max-device-width: 480px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  body {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+.text-nowrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.prevent-bold {
+  transition: -webkit-transform 0;
+}
